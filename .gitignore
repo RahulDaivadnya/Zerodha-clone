@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Build output from the React app
+dashboard/build/
+
+# Environment variables
+# Ignore all .env files
+.env
+*.env
+*.env.local
+
+# Specifically ignore the backend .env file to be safe
+backend/.env
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Editor-specific directories
+.idea/
+.vscode/
